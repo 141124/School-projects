@@ -1,0 +1,55 @@
+##include <iostream>
+#include<iomanip>
+using namespace std;
+int main()
+ {
+float a; //7
+float b; //2
+float c; //3
+float d; //4
+float e; //1
+float f; //2
+float W;
+float Wx;
+float Wy;
+float x;
+float y;
+
+cout<<"Podaj liczbe a: "<<endl;
+cin>>a;
+cout<<"Podaj liczbe b: "<<endl;
+cin>>b;
+cout<<"Podaj liczbe c: "<<endl;
+cin>>c;
+cout<<"Podaj liczbe d: "<<endl;
+cin>>d;
+cout<<"Podaj liczbe e: "<<endl;
+cin>>e;
+cout<<"Podaj liczbe f: "<<endl;
+cin>>f;
+
+
+W=a*d-c*b;
+cout<<"Liczba W wynosi: "<< W << endl;
+cin>>W;
+
+Wx=e*d-f*b;
+cout<<"Liczba Wx wynosi: "<< Wx << endl;
+cin>>Wx;
+
+Wy=a*f-c*e;
+cout<<"Liczba Wy wynosi: "<< Wy << endl;
+cin>>Wy;
+
+x=Wx/W;
+cout<<"Liczba x wynosi: "<< x << endl;
+cin>>x;
+
+y=Wy/W;
+cout<<"Liczba y wynosi: "<< y << endl;
+cin>>y;
+
+
+
+return 0;
+ }

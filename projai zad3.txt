@@ -1,0 +1,41 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+int main()
+ {
+
+float a;
+float b;
+float c;
+float p;
+float S;
+
+cout<<"Podaj liczbe a: "<<endl;
+cin>>a;
+cout<<"Podaj liczbe b: "<<endl;
+cin>>b;
+cout<<"Podaj liczbe c: "<<endl;
+cin>>c;
+
+p=0.5*(a+b+c);
+    S=sqrt(p*(p-a)*(p-b)*(p-c));
+    cout<<"Pole trojkata wynosi:"<<S;
+
+do
+{
+  cin>>a;
+  cin>>b;
+  cin>>c;
+  cin>>p;
+  cin>>S;
+}
+while(a!=0 && b!=0 && c!=0);
+
+return 0;
+ }
+
+//Fryderyk_Rutkowski_1itp
+
+
+//Fryderyk_Rutkowski_1itp
