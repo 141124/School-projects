@@ -34,8 +34,3 @@ while(a!=0 && b!=0 && c!=0);
 
 return 0;
  }
-
-//Fryderyk_Rutkowski_1itp
-
-
-//Fryderyk_Rutkowski_1itp
